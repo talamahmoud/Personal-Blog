@@ -1,0 +1,96 @@
+@import url("color-system.css");
+@import url("space-style.css");
+
+:root {
+--btn-radius: 10px;
+--btn-size: 20px;
+}
+
+.btn--primary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding: var(--space-s) var(--space-s);
+    border-radius: var(--btn-radius);
+    -webkit-border-radius: var(--btn-radius);
+    -moz-border-radius: var(--btn-radius);
+    -ms-border-radius: var(--btn-radius);
+    -o-border-radius: var(--btn-radius);
+    border: 0;
+    cursor: pointer;
+    font-weight: var(--fw-bold);
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    font-size: var(--space-s);
+    text-transform: uppercase;
+
+    &:hover{
+        background-color: var(--color-primary);
+    }
+}
+
+.btn--secondary {
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    padding: var(--space-s) var(--space-s);
+    border-radius: var(--btn-radius);
+    -webkit-border-radius: var(--btn-radius);
+    -moz-border-radius: var(--btn-radius);
+    -ms-border-radius: var(--btn-radius);
+    -o-border-radius: var(--btn-radius);
+    border: 0;
+    cursor: pointer;
+    font-weight: var(--fw-bold);
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    font-size: var(--space-s);
+    text-transform: uppercase;
+    
+    &:hover{
+        background-color: var(--color-white);
+        color: var(--color-secondary);
+    }
+}
+.btn--light {
+    background-color: var(--color-white);
+    color: var(--color-para);
+    padding: var(--space-s) var(--space-s);
+    border-radius: var(--btn-radius);
+    -webkit-border-radius: var(--btn-radius);
+    -moz-border-radius: var(--btn-radius);
+    -ms-border-radius: var(--btn-radius);
+    -o-border-radius: var(--btn-radius);
+    border: 1px solid var(--color-para);
+    cursor: pointer;
+    font-weight: var(--fw-bold);
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    font-size: var(--space-s);
+    text-transform: uppercase;
+    
+    &:hover{
+        background-color: var(--color-secondary);
+        color: var(--color-white);
+        border: 0;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .btn--primary , .btn--secondary , .btn--light {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 901px) {
+    .btn--primary , .btn--secondary , .btn--light {
+        font-size: 12px;
+    }
+}

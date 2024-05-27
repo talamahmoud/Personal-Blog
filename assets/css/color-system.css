@@ -1,0 +1,18 @@
+:root {
+    /* main colors */
+    --color-primary: #183354;
+    --color-secondary: #f4796c;
+    --color-para: #545e69;
+    --color-white: #fff;
+    --color-light-blue: #bacce1;
+    --color-footer: #7c91aa;
+
+    /* typography colors */
+    --color-text: var(--color-para);
+    --color-h1: var(--color-white);
+    --color-link: var(--color-primary);
+
+    /* buttons color */
+    --color-bg: var(--color-secondary);
+    --color-btn-hover: var(--color-primary);
+}

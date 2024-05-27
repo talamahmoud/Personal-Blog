@@ -1,0 +1,14 @@
+:root {
+    --space-xs: 5px;
+    --space-s: 10px;
+    --space-md: 15px;
+    --space-lg: 20px;
+    --space-lgg:30px;
+    --space-xl: 50px;
+    --fs-sm: 15px;
+    --fs-md: 22px;
+    --fs-lg: 25px;
+    --fw-thin: 400;
+    --fw-normal: 500;
+    --fw-bold: 800;
+}
