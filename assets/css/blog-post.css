@@ -164,6 +164,13 @@ p.first-letter::first-letter {
     flex-direction: column;
 }
 
+.author-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .author h4 {
     color: var(--color-secondary);
 }

@@ -408,6 +408,7 @@ body {
     margin-top: var(--space-lg);
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
